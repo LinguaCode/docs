@@ -17,7 +17,7 @@
 {
   code: "տպել «բարեւ աշխարհ»",
   Markers: [{
-      color: String,
+      color: 'red',
 	  range: [0, 6, 0, 17] 
     }
   ]
