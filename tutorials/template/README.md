@@ -33,8 +33,8 @@
             "cursor": [0, 6],
         },
         "validations": {
-            "code": /^տպել «.*»\s*$/ig,
-            "output": /.*/ig
+            "code": "/^տպել «.*»\\s*$/ig",
+            "output": "/.*/ig"
         }
     },
     "sources": "դասընթացի պատրաստման համար օգտագործված աղբյուրն է introtopython.org/syllabus.html կայքը։",
