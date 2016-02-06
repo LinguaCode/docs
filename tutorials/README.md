@@ -34,7 +34,7 @@
             "cursor": [0, 6],
         },
         "validations": {
-            "code": "/^տպել «.*»\\s*$/ig",
+            "source": "/^տպել «.*»\\s*$/ig",
             "output": "/.*/ig"
         }
     },
