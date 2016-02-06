@@ -7,11 +7,31 @@
 ### Պարամետրեր
 ```javascript
 {
-  code: String,
-  Markers: [{
-      color: String,
-	  range: [<տող N1>, <սյուն N1>, <տող N2>, <սյուն N2>] 
-    }
-  ]
+    author: {
+        name: '',
+        email: '',
+        url: '',
+    },
+    tutorial: {
+        chapter: '',
+        index: '',
+        article: {
+            title: '',
+            lesson: '',
+            task: '',
+        },
+        sourceCode: {
+            code: '',
+            markers: [],
+            readOnly: [],
+            cursor: [],
+        },
+        validations: {
+            code: [],
+            output: []
+        }
+    },
+    sources: '',
+    notes: '',
 }
 ```
