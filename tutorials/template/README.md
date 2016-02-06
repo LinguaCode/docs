@@ -79,11 +79,11 @@
 			Տիպը՝&nbsp;<em>տող</em>։<br />
 			<em>(պարտադիր է լրացման)</em></li>
 			<li><strong>lesson</strong><br />
-			Դասի նկարագրությունը։ <strong><a href="http://guides.github.com/features/mastering-markdown">markdown</a></strong>-ի կիրառումը թույլատրված է։<br />
+			Դասի նկարագրությունը։ <strong><a href="http://guides.github.com/features/mastering-markdown" target="_blank">markdown</a></strong>-ի կիրառումը թույլատրված է։<br />
 			Տիպը՝&nbsp;<em>տող</em>։<br />
 			<em>(պարտադիր է լրացման)</em></li>
 			<li><strong>task</strong><br />
-			Դասի առաջադրանքը։ <strong><a href="http://guides.github.com/features/mastering-markdown">markdown</a></strong>-ի կիրառումը թույլատրված է։<br />
+			Դասի առաջադրանքը։ <strong><a href="http://guides.github.com/features/mastering-markdown" target="_blank">markdown</a></strong>-ի կիրառումը թույլատրված է։<br />
 			Տիպը՝&nbsp;<em>տող</em>։<br />
 			<em>(պարտադիր է լրացման)</em></li>
 		</ul>
