@@ -1,37 +1,43 @@
-# <Թեմա>
-## <Վերնագիր>
+# Դասընթացներ
+## Ձեւաչափ
+
 ### Նկարագրություն
-<Նկարագրություն>
-### Առաջադրանք
-<Առաջադրանք>
-### Պարամետրեր
-```javascript
+Սա ձեռնարկ է, թե ինչպես ստեղծել դաս-օրինակ-առաջադրանք-ստուգում ձեւաչափի դասընթաց։
+
+### tutorial.json-ի ջեւաչափը՝
+```json
 {
-    author: {
-        name: '',
-        email: '',
-        url: '',
+    "author": {
+        "name": "Arman Yeghiazaryan",
+        "email": "arman@linguacode.me",
+        "url": "http://otanim.com",
     },
-    tutorial: {
-        chapter: '',
-        index: '',
-        article: {
-            title: '',
-            lesson: '',
-            task: '',
+    "tutorial": {
+        "chapter": "Արտածում",
+        "article": {
+			index": 1,
+            "title": "նախաբան",
+            "lesson": "Տերմինալում տեքստի արտածման համար օգտագործվում է **տպել** հրամանը: Օրինակ՝  \n**մուտք**՝  \n`տպել «ողջույն»`  \n**ելք**՝  \n`«ողջույն»`",
+            "task": "1. Մեկնարկեք ծրագիրը, եւ տեսեք արդյունքը։  \n2. Փոփոխեք առկա արտածման տեքստը ձեր անունով, եւ մեկնարկեք ծրագիրը։",
         },
-        sourceCode: {
-            code: '',
-            markers: [],
-            readOnly: [],
-            cursor: [],
+        "sourceCode": {
+            "code": "տպել «ողջո՛ւյն»",
+            "markers": {
+				"color": "red",
+				"range": [0, 6, 0, 13]
+			},
+            "readOnly": [
+				[0, 0, 0, 5],
+				[0, 14, 0, 999]
+			],
+            "cursor": [0, 6],
         },
-        validations: {
-            code: [],
-            output: []
+        "validations": {
+            "code": /^տպել «.*»\s*$/ig,
+            "output": /.*/ig
         }
     },
-    sources: '',
-    notes: '',
+    "sources": "դասընթացի պատրաստման համար օգտագործված աղբյուրն է introtopython.org/syllabus.html կայքը։",
+    "notes": "դասընացը ենթակա է ստուգման",
 }
 ```
