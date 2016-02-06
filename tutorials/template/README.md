@@ -56,4 +56,59 @@
 		<i>(պարտադիր չէ լրացման)</i></li>
 	</ul>
 	</li>
+	<li><strong>tutorial</strong><br />
+	Դասի բոլոր պարամետրերը։<br />
+	<em>(պարտադիր է լրացման)</em>
+	<ul>
+		<li><strong>chapter</strong> &nbsp;<br />
+		Դասի գլուխը։ Նույն գլխի դասները պետք է ունենան նույն գլխի chapter-ը: &nbsp;&nbsp;<br />
+		<em>(պարտադիր է լրացման)</em></li>
+		<li><strong>article</strong><br />
+		Դասը։ &nbsp;<br />
+		<em>(պարտադիր է լրացման) &nbsp;</em>
+		<ul>
+			<li><strong>index</strong><br />
+			Դասի համարը գլխում։ Համարը պետք է լինի ամբողջ թիվ։ &nbsp;<br />
+			<em>(պարտադիր է լրացման)</em></li>
+			<li><strong>title</strong> &nbsp;<br />
+			Դասի վերնագիրը։ &nbsp;<br />
+			<em>(պարտադիր է լրացման)</em></li>
+			<li><strong>lesson</strong> &nbsp;<br />
+			Դասի նկարագրությունը։ [markdown](https://guides.github.com/features/mastering-markdown/)-ի կիրառումը թույլատրված է, բացառությամբ HTML-ի։ &nbsp;<br />
+			<em>(պարտադիր է լրացման)</em></li>
+			<li><strong>task</strong> &nbsp;<br />
+			Դասի առաջադրանքը։ [markdown](https://guides.github.com/features/mastering-markdown/)-ի կիրառումը թույլատրված է, բացառությամբ HTML-ի։ &nbsp;<br />
+			<em>(պարտադիր է լրացման)</em></li>
+		</ul>
+		</li>
+		<li><strong>code</strong><br />
+		Դասը։ &nbsp;<br />
+		(պարտադիր է լրացման)
+		<ul>
+			<li><strong>source</strong> &nbsp;<br />
+			Դասի համարը գլխում։ Համարը պետք է լինի ամբողջ թիվ։ &nbsp;<br />
+			(պարտադիր է լրացման)</li>
+			<li><strong>markers</strong> &nbsp;<br />
+			Դասի վերնագիրը։ &nbsp;<br />
+			(պարտադիր է լրացման)
+			<ul>
+				<li><strong>color</strong> &nbsp;<br />
+				Դասի նկարագրությունը։ [markdown](https://guides.github.com/features/mastering-markdown/)-ի կիրառումը թույլատրված է, բացառությամբ HTML-ի։ &nbsp;<br />
+				(պարտադիր է լրացման)</li>
+				<li><strong>range</strong>&nbsp;&nbsp;<br />
+				Դասի նկարագրությունը։ [markdown](https://guides.github.com/features/mastering-markdown/)-ի կիրառումը թույլատրված է, բացառությամբ HTML-ի։ &nbsp;<br />
+				(պարտադիր է լրացման)</li>
+			</ul>
+			</li>
+			<li><strong>readOnly</strong> &nbsp;<br />
+			Դասի նկարագրությունը։ [markdown](https://guides.github.com/features/mastering-markdown/)-ի կիրառումը թույլատրված է, բացառությամբ HTML-ի։ &nbsp;<br />
+			(պարտադիր է լրացման) &nbsp;</li>
+			<li><strong>cursor</strong><br />
+			Դասի առաջադրանքը։ [markdown](https://guides.github.com/features/mastering-markdown/)-ի կիրառումը թույլատրված է, բացառությամբ HTML-ի։ &nbsp;<br />
+			(պարտադիր է լրացման) &nbsp;</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
 </ul>
+
