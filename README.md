@@ -167,19 +167,11 @@ chapter-name
 	Տիպը՝&nbsp;<em>օբյեկտ</em>։<br />
 	<em>(պարտադիր է լրացման)</em>
 	<ul>
-		<li><strong>chapter</strong><br />
-		Դասի գլուխը։ Նույն գլխի դասները պետք է ունենան նույն գլխի chapter-ը:&nbsp;<br />
-		Տիպը՝&nbsp;<em>տող</em>։<br />
-		<em>(պարտադիր է լրացման)</em></li>
 		<li><strong>article</strong><br />
 		Դասը։<br />
 		Տիպը՝&nbsp;<em>օբյեկտ</em>։<br />
 		<em>(պարտադիր է լրացման)</em>
 		<ul>
-			<li><strong>index</strong><br />
-			Դասի համարը գլխում։ Համարը պետք է լինի ամբողջ թիվ։<br />
-			Տիպը՝&nbsp;<em>թիվ</em>։<br />
-			<em>(պարտադիր է լրացման)</em></li>
 			<li><strong>title</strong><br />
 			Դասի վերնագիրը։<br />
 			Տիպը՝&nbsp;<em>տող</em>։<br />
@@ -234,10 +226,43 @@ chapter-name
 		<ul>
 			<li><b>source</b><br />
 			Օգտատիրոջ կողմից&nbsp;փոփոխված ծրագրային կոդի ստուգման regular expression:<br />
-			Տիպը՝&nbsp;<em>տող</em>։</li>
+			Տիպը՝&nbsp;<em>տող</em>։
+			<ul>
+				<li>
+				<div>​<b>regExp</b><br />
+				Օգտատիրոջ կողմից&nbsp;փոփոխված ծրագրային կոդի ստուգման regular expression:<br />
+				Տիպը՝&nbsp;<em>տող</em>։</div>
+				</li>
+				<li>
+				<div>
+				<div>​<strong>message</strong><br />
+				Համապատասխան սխալի մասին արտածվելիք տեքստը։<br />
+				Լռելյան, եթե այս տողը նշված չէ, սխալ արտածման տեքստն է․ <em>&laquo;ծրագրում առկա է սխալ&raquo;</em>։</div>
+
+				<div>Տիպը՝&nbsp;<em>տող</em>։</div>
+				</div>
+				</li>
+			</ul>
+			</li>
 			<li><strong>output</strong><br />
 			Օգտատիրոջ կողմից&nbsp;փոփոխված ծրագրային կոդի ելքի&nbsp;ստուգման regular expression:<br />
-			Տիպը՝&nbsp;<em>տող</em>։</li>
+			Տիպը՝&nbsp;<em>տող</em>։
+			<ul>
+				<li>​<b>regExp</b>
+				<div>Օգտատիրոջ կողմից&nbsp;փոփոխված ծրագրային կոդի ստուգման regular expression:<br />
+				Տիպը՝&nbsp;<em>տող</em>։</div>
+				</li>
+				<li>
+				<div>​<strong>message</strong><br />
+				Համապատասխան սխալի մասին արտածվելիք տեքստը։<br />
+				Լռելյան, եթե այս տողը նշված չէ, սխալ արտածման տեքստն է․&nbsp;<em>&laquo;ծրագրում առկա է սխալ&raquo;</em>։</div>
+
+				<div>
+				<div>Տիպը՝&nbsp;<em>տող</em>։</div>
+				</div>
+				</li>
+			</ul>
+			</li>
 		</ul>
 		</li>
 	</ul>
