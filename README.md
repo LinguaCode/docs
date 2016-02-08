@@ -77,7 +77,7 @@ chapter-name
 	</li>
 	<li>
 	<div><b>language</b><br />
-	Թեմայում առկա դաընթացների լեզուն՝&nbsp;<a href="https://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a>&nbsp;ստանդարտով։<br />
+	Թեմայում առկա դաընթացների լեզուն՝&nbsp;<a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">ISO 639-1</a>&nbsp;ստանդարտով։<br />
 	Տիպը՝&nbsp;<em>տող</em>։<br />
 	<em>(պարտադիր է լրացման)</em></div>
 	</li>
