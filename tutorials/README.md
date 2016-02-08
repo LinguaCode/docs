@@ -2,6 +2,17 @@
 ## Նկարագրություն
 Սա ձեռնարկ է, թե ինչպես ստեղծել դաս-օրինակ-առաջադրանք-ստուգում ձեւաչափի դաս։
 
+## կառուցվածքը՝
+chapter-name
+├─ tutorials
+│  └─ tutorial-0.json
+│  └─ tutorial-1.json
+│  └─ tutorial-2.json
+│  └─ tutorial-N.json
+└─ chapter.json
+
+![դասընթաց](canvas.png "դասընթաց")
+
 ## դասընթացի վերջնական տեքսը։
 ![դասընթաց](canvas.png "դասընթաց")
 
