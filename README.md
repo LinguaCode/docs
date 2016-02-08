@@ -134,11 +134,11 @@ chapter-name
     "validations": {
       "source": {
         "regExp": "/^տպել «.*»\\s*$/ig",
-        "error": "հայտնաբերված է սխալ"
+        "message": "հայտնաբերված է սխալ"
       },
       "output": {
         "regExp": "/.*/ig",
-        "error": "հայտնաբերված է սխալ"
+        "message": "հայտնաբերված է սխալ"
       },
     }
   },
