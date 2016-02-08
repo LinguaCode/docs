@@ -118,8 +118,9 @@ chapter-name
       "lesson": "Տերմինալում տեքստի արտածման համար օգտագործվում է **տպել** հրամանը: Օրինակ՝  \n**մուտք**՝  \n`տպել «ողջույն»`  \n**ելք**՝  \n`«ողջույն»`",
       "task": "1. Մեկնարկեք ծրագիրը, եւ տեսեք արդյունքը։  \n2. Փոփոխեք առկա արտածման տեքստը ձեր անունով, եւ մեկնարկեք ծրագիրը։",
     },
-    "sourceCode": {
-      "code": "տպել «ողջո՛ւյն»",
+    "code": {
+      "source": "տպել «ողջո՛ւյն»",
+      "source": "տպել «ողջո՛ւյն»",
       "markers": {
         "color": "red",
         "range": [0, 6, 0, 13]
@@ -147,119 +148,124 @@ chapter-name
 ```
 
 <ul>
-	<li><b>author</b><br />
+	<li><b>author </b><br />
 	Դասի Հեղինակի&nbsp;տվյալներն է։<br />
-	Տիպը՝&nbsp;<em>օբյեկտ</em>։
+	Տիպը՝&nbsp; <em> օբյեկտ </em> ։
 	<ul>
-		<li><b>name</b><br />
+		<li><b>name </b><br />
 		Հեղինակի անունը եւ ազգանունը։<br />
-		Տիպը՝&nbsp;<em>տող</em>։</li>
-		<li><b>email</b><br />
+		Տիպը՝&nbsp; <em> տող </em> ։</li>
+		<li><b>email </b><br />
 		Հեղինակի էլ․ հասցեն:<br />
-		Տիպը՝&nbsp;<em>տող</em>։</li>
-		<li><b>url</b><br />
+		Տիպը՝&nbsp; <em> տող </em> ։</li>
+		<li><b>url </b><br />
 		Հեղինակի անձանական կամ սոց․ էջի հասցեն։<br />
-		Տիպը՝&nbsp;<em>տող</em>։</li>
+		Տիպը՝&nbsp; <em> տող </em> ։</li>
 	</ul>
 	</li>
-	<li><strong>tutorial</strong><br />
+	<li><strong>tutorial </strong><br />
 	Դասի&nbsp;պարամետրերը։<br />
-	Տիպը՝&nbsp;<em>օբյեկտ</em>։<br />
-	<em>(պարտադիր է լրացման)</em>
+	Տիպը՝&nbsp; <em> օբյեկտ </em> ։<br />
+	<em>(պարտադիր է լրացման) </em>
 	<ul>
-		<li><strong>article</strong><br />
+		<li><strong>article </strong><br />
 		Դասը։<br />
-		Տիպը՝&nbsp;<em>օբյեկտ</em>։<br />
-		<em>(պարտադիր է լրացման)</em>
+		Տիպը՝&nbsp; <em> օբյեկտ </em> ։<br />
+		<em>(պարտադիր է լրացման) </em>
 		<ul>
-			<li><strong>title</strong><br />
+			<li><strong>title </strong><br />
 			Դասի վերնագիրը։<br />
-			Տիպը՝&nbsp;<em>տող</em>։<br />
-			<em>(պարտադիր է լրացման)</em></li>
-			<li><strong>lesson</strong><br />
-			Դասի նկարագրությունը։ <strong><a href="http://guides.github.com/features/mastering-markdown" target="_blank">markdown</a></strong>-ի կիրառումը թույլատրված է։<br />
-			Տիպը՝&nbsp;<em>տող</em>։<br />
-			<em>(պարտադիր է լրացման)</em></li>
-			<li><strong>task</strong><br />
-			Դասի առաջադրանքը։ <strong><a href="http://guides.github.com/features/mastering-markdown" target="_blank">markdown</a></strong>-ի կիրառումը թույլատրված է։<br />
-			Տիպը՝&nbsp;<em>տող</em>։<br />
-			<em>(պարտադիր է լրացման)</em></li>
+			Տիպը՝&nbsp; <em> տող </em> ։<br />
+			<em>(պարտադիր է լրացման) </em></li>
+			<li><strong>lesson </strong><br />
+			Դասի նկարագրությունը։ <strong> <a href="http://guides.github.com/features/mastering-markdown" target="_blank"> markdown </a> </strong> -ի կիրառումը թույլատրված է։<br />
+			Տիպը՝&nbsp; <em> տող </em> ։<br />
+			<em>(պարտադիր է լրացման) </em></li>
+			<li><strong>task </strong><br />
+			Դասի առաջադրանքը։ <strong> <a href="http://guides.github.com/features/mastering-markdown" target="_blank"> markdown </a> </strong> -ի կիրառումը թույլատրված է։<br />
+			Տիպը՝&nbsp; <em> տող </em> ։<br />
+			<em>(պարտադիր է լրացման) </em></li>
 		</ul>
 		</li>
-		<li><strong>code</strong><br />
+		<li><strong>code </strong><br />
 		Ծրագրային կոդի պարամետրերը։<br />
-		Տիպը՝&nbsp;<em>օբյեկտ</em>։<br />
-		<em>(պարտադիր է լրացման)</em>
+		Տիպը՝&nbsp; <em> օբյեկտ </em> ։<br />
+		<em>(պարտադիր է լրացման) </em>
 		<ul>
-			<li><strong>source</strong><br />
+			<li><strong>source </strong><br />
 			Սկզբնական կոդը։<br />
-			Տիպը՝&nbsp;<em>տող</em>։<br />
+			Տիպը՝ &nbsp;<i>տող</i>։<br />
 			<em>(պարտադիր է լրացման)</em></li>
-			<li><strong>markers</strong><br />
+			<li><strong>continuus</strong><br />
+			Եթե արժեքը true է, ապա առաջադրանքը համարվում է շարունակական եւ սկզբնական կոդը մնում է նույնն ինչով, որ ավարտվել էր նախորդը առաջադրանքը։<br />
+			Եթե ներկայիս առաջադրանքն առաջինն է <em>թեմայում</em>, ապա նշված արժեքն անտեսվում է եւ փոխարինվում false-ով։<br />
+			Լռելյայն արժեքը՝ <em>false</em>:<br />
+			Տիպը՝&nbsp; <em> տրամաբանական</em>։</li>
+			<li><strong>markers </strong><br />
 			Կոդի ընդգծման պարամետրերը։ Կարող է լինել ինչպես մի պարամետր, այնպես էլ պարամետրերի խումբ՝ զանգվածի տեսքով։<br />
-			<em>color</em> ենթապարամետրի բացառության դեպքում կարող է պարունակել միայն <em>range</em>-ի արժեքը։<br />
-			Տիպը՝&nbsp;<em>օբյեկտ </em>կամ<em> զանգված՝ </em>կազմված<em> օբյեկտներից</em>։
+			<em>color </em> ենթապարամետրի բացառության դեպքում կարող է պարունակել միայն <em> range </em> -ի արժեքը։<br />
+			Տիպը՝&nbsp; <em> օբյեկտ </em> կամ <em> զանգված՝ </em> կազմված <em> օբյեկտներից </em> ։
 			<ul>
-				<li><strong>color</strong><br />
+				<li><strong>color </strong><br />
 				Ընդգծման գույնը։<br />
-				Լռելյայն, եթե այս տողը նշված չէ, արժեքը կլինի &quot;<strong>red</strong>&quot;։<br />
-				Հնարավոր արժեքները՝ <em>&quot;red&quot;</em>, <em>&quot;orange&quot;</em>, <em>&quot;yellow&quot;</em>, <em>&quot;green&quot;</em>, <em>&quot;blue&quot;</em>, <em>&quot;violet&quot;</em>, <em>&quot;purple&quot;</em>, <em>&quot;pink&quot;</em>:<br />
-				Տիպը՝&nbsp;<em>տող</em>։</li>
-				<li><strong>range</strong><br />
+				Լռելյայն, եթե այս տողը նշված չէ, արժեքը կլինի &quot;<em>red</em>&quot;։<br />
+				Հնարավոր արժեքները՝ <em> &quot;red&quot; </em> , <em> &quot;orange&quot; </em> , <em> &quot;yellow&quot; </em> , <em> &quot;green&quot; </em> , <em> &quot;blue&quot; </em> , <em> &quot;violet&quot; </em> , <em> &quot;purple&quot; </em> , <em> &quot;pink&quot; </em> :<br />
+				Տիպը՝&nbsp; <em> տող </em> ։</li>
+				<li><strong>range </strong><br />
 				Ընդգծման կոորդինատները։<br />
-				Արժեքը՝ <em>[տող1, սյուն1, տող2, սյուն2]</em>:<br />
-				Տիպը՝&nbsp;<em>զանգված՝ </em>կազմված<em> թվերից</em>։</li>
+				Արժեքը՝ <em> [տող1, սյուն1, տող2, սյուն2] </em> :<br />
+				Տիպը՝&nbsp; <em> զանգված՝ </em> կազմված <em> թվերից </em> ։</li>
 			</ul>
 			</li>
-			<li><strong>readOnly</strong><br />
+			<li><strong>readOnly </strong><br />
 			Կոդի խմբագրման արգելափակման կոորդինատները։&nbsp;Կարող է լինել ինչպես մի պարամետր, այնպես էլ պարամետրերի խումբ՝ զանգվածի տեսքով։<br />
-			Արժեքը՝&nbsp;<em>[տող1, սյուն1, տող2, սյուն2]</em>:<br />
-			Տիպը՝&nbsp;<em>զանգված՝ </em>կազմված<em> թվերից</em>։</li>
-			<li><strong>cursor</strong><br />
+			Արժեքը՝&nbsp; <em> [տող1, սյուն1, տող2, սյուն2] </em> :<br />
+			Տիպը՝&nbsp; <em> զանգված՝ </em> կազմված <em> թվերից </em> ։</li>
+			<li><strong>cursor </strong><br />
 			Նշորդի դիրքը սկզբնական կոդում։<br />
-			Արժեքը՝&nbsp;<em>[տող1, սյուն1]</em>:<br />
-			Տիպը՝&nbsp;<em>զանգված՝ </em>կազմված <em>թվերից</em>։</li>
+			Արժեքը՝&nbsp; <em> [տող1, սյուն1] </em> :<br />
+			Տիպը՝&nbsp; <em> զանգված՝ </em> կազմված <em> թվերից </em> ։</li>
 		</ul>
 		</li>
-		<li><strong>validations</strong><br />
+		<li><strong>validations </strong><br />
 		Առաջադրանքի ստուգում։<br />
-		Տիպը՝&nbsp;<em>օբյեկտ</em>։
+		Տիպը՝&nbsp; <em> օբյեկտ </em> ։
 		<ul>
-			<li><b>source</b><br />
+			<li><b>source </b><br />
 			Օգտատիրոջ կողմից&nbsp;փոփոխված ծրագրային կոդի ստուգման regular expression:<br />
-			Տիպը՝&nbsp;<em>տող</em>։
+			Տիպը՝&nbsp; <em> տող </em> ։
 			<ul>
 				<li>
-				<div>​<b>regExp</b><br />
+				<div>​ <b> regExp </b><br />
 				Օգտատիրոջ կողմից&nbsp;փոփոխված ծրագրային կոդի ստուգման regular expression:<br />
-				Տիպը՝&nbsp;<em>տող</em>։</div>
+				Տիպը՝&nbsp; <em> տող </em> ։</div>
 				</li>
 				<li>
 				<div>
-				<div>​<strong>message</strong><br />
+				<div>​ <strong> message </strong><br />
 				Համապատասխան սխալի մասին արտածվելիք տեքստը։<br />
-				Լռելյան, եթե այս տողը նշված չէ, սխալ արտածման տեքստն է․ <em>&laquo;ծրագրում առկա է սխալ&raquo;</em>։</div>
+				Լռելյան, եթե այս տողը նշված չէ, սխալ արտածման տեքստն է․ <em> &laquo;ծրագրում առկա է սխալ&raquo; </em> ։</div>
 
-				<div>Տիպը՝&nbsp;<em>տող</em>։</div>
+				<div>Տիպը՝&nbsp; <em> տող </em> ։</div>
 				</div>
 				</li>
 			</ul>
 			</li>
-			<li><strong>output</strong><br />
+			<li><strong>output </strong><br />
 			Օգտատիրոջ կողմից&nbsp;փոփոխված ծրագրային կոդի ելքի&nbsp;ստուգման regular expression:<br />
-			Տիպը՝&nbsp;<em>տող</em>։
+			Տիպը՝&nbsp; <em> տող </em> ։
 			<ul>
-				<li>​<b>regExp</b>
+				<li>​ <b> regExp </b>
 				<div>Օգտատիրոջ կողմից&nbsp;փոփոխված ծրագրային կոդի ստուգման regular expression:<br />
-				Տիպը՝&nbsp;<em>տող</em>։</div>
+				Տիպը՝&nbsp; <em> տող </em> ։</div>
 				</li>
 				<li>
-				<div>​<strong>message</strong><br />
+				<div>​ <strong> message </strong><br />
 				Համապատասխան սխալի մասին արտածվելիք տեքստը։<br />
-				Լռելյան, եթե այս տողը նշված չէ, սխալ արտածման տեքստն է․&nbsp;<em>&laquo;ծրագրում առկա է սխալ&raquo;</em>։</div>
+				Լռելյան, եթե այս տողը նշված չէ, սխալ արտածման տեքստն է․&nbsp; <em> &laquo;ծրագրում առկա է սխալ&raquo; </em> ։</div>
 
 				<div>
-				<div>Տիպը՝&nbsp;<em>տող</em>։</div>
+				<div>Տիպը՝&nbsp; <em> տող </em> ։</div>
 				</div>
 				</li>
 			</ul>
@@ -268,10 +274,10 @@ chapter-name
 		</li>
 	</ul>
 	</li>
-	<li><strong>sources</strong><br />
+	<li><strong>sources </strong><br />
 	Դասի պատրաստման համար օգտագործված նյութերի հղումները։<br />
-	Տիպը՝&nbsp;<em>տող</em>։</li>
-	<li><strong>notes</strong><br />
+	Տիպը՝&nbsp; <em> տող </em> ։</li>
+	<li><strong>notes </strong><br />
 	Նշումներ դասի վերաբերյալ։<br />
-	Տիպը՝&nbsp;<em>տող</em>։</li>
+	Տիպը՝&nbsp; <em> տող </em> ։</li>
 </ul>
