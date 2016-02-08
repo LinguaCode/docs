@@ -3,6 +3,7 @@
 Սա ձեռնարկ է, թե ինչպես ստեղծել դաս-օրինակ-առաջադրանք-ստուգում ձեւաչափի դաս։
 
 ## կառուցվածքը՝
+```
 chapter-name  
 ├─ tutorials  
 │  └─ tutorial-0.json  
@@ -10,6 +11,7 @@ chapter-name
 │  └─ tutorial-2.json  
 │  └─ tutorial-N.json  
 └─ chapter.json
+```
 
 ![դասընթաց](canvas.png "դասընթաց")
 
