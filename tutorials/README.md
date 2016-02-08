@@ -16,7 +16,7 @@ chapter-name
 ## դասընթացի վերջնական տեքսը։
 ![դասընթաց](canvas.png "դասընթաց")
 
-## tutorial.json-ի ջեւաչափը՝
+## tutorial-N.json՝
 ```json
 {
   "author": {
