@@ -201,7 +201,8 @@ chapter-name
 			Տիպը՝&nbsp;<em>օբյեկտ </em>կամ<em> զանգված՝ </em>կազմված<em> օբյեկտներից</em>։
 			<ul>
 				<li><strong>color</strong><br />
-				Ընդգծման գույնը։ Չնշելու դեպքում լռելյայն գույնը կարմիրն է։<br />
+				Ընդգծման գույնը։<br />
+				Լռելյայն, եթե այս տողը նշված չէ, արժեքը կլինի &quot;<strong>red</strong>&quot;։<br />
 				Հնարավոր արժեքները՝ <em>&quot;red&quot;</em>, <em>&quot;orange&quot;</em>, <em>&quot;yellow&quot;</em>, <em>&quot;green&quot;</em>, <em>&quot;blue&quot;</em>, <em>&quot;violet&quot;</em>, <em>&quot;purple&quot;</em>, <em>&quot;pink&quot;</em>:<br />
 				Տիպը՝&nbsp;<em>տող</em>։</li>
 				<li><strong>range</strong><br />
