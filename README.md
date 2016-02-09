@@ -33,14 +33,16 @@
 
 ## կառուցվածքը՝
 ```
-chapter-name  
-├─ tutorials  
-│  └─ tutorial-0.json  
-│  └─ tutorial-1.json  
-│  └─ tutorial-2.json  
-│  └─ tutorial-N.json  
+chapter
+├─ language
+│  └─ tutorial-0.json
+│  └─ tutorial-1.json
+│  └─ tutorial-2.json
+│  └─ tutorial-N.json
 └─ chapter.json
 ```
+Այստեղ **language**-ի ֆորմատը պետք է լինի ISO 639-1 ստանդարտին համապատասխան։
+
 ## chapter.json՝
 ```json
 {
