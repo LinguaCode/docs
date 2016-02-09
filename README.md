@@ -41,7 +41,7 @@ chapter
 │  └─ tutorial-N.json
 └─ chapter.json
 ```
-Այստեղ **language**-ի ֆորմատը պետք է լինի ISO 639-1 ստանդարտին համապատասխան։
+<div>Այստեղ <strong>language</strong>-ի ֆորմատը պետք է լինի <a href="http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">ISO 639-1</a> ստանդարտին համապատասխան։</div>
 
 ## chapter.json՝
 ```json
