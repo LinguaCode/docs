@@ -33,7 +33,7 @@
 
 ## կառուցվածքը՝
 ```
-chapter
+tutorials
 └─ <chapter's-number>_<tutorial's-name>
 │  └─ <language-of-tutorial>
 │      └─ chapter.json
