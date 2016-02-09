@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f4660f8-58dc-4146-a94b-c2225a465218" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorials/chapters/chapter.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorials/chapters/tutorial.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorials/tutorial.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/README.md" afterPath="$PROJECT_DIR$/commands/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/if-else-statement-description.png" afterPath="$PROJECT_DIR$/commands/images/if-else-statement-description.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/if-else-statement-example.png" afterPath="$PROJECT_DIR$/commands/images/if-else-statement-example.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/input-description.png" afterPath="$PROJECT_DIR$/commands/images/input-description.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/input-example.png" afterPath="$PROJECT_DIR$/commands/images/input-example.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/output-description.png" afterPath="$PROJECT_DIR$/commands/images/output-description.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/output-example.png" afterPath="$PROJECT_DIR$/commands/images/output-example.png" />
     </list>
     <ignored path="linguacode-docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +43,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3521289">
-              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.273878">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -378,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3521289">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.273878">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
           <folding />
         </state>
       </provider>

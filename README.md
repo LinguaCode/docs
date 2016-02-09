@@ -35,7 +35,7 @@
 ```
 chapter
 └─ <chapter's-number>_<tutorial's-name>
-│   └─ <language-of-tutorial>
+│  └─ <language-of-tutorial>
 │      └─ chapter.json
 │      └─ tutorials
 │          ├─ <tutorial's-number>_<tutorial's-name>
