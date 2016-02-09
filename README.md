@@ -49,7 +49,6 @@ chapter-name
     "email": "arman@linguacode.me",
     "url": "http://otanim.com",
   },
-  "language": "hy",
   "chapter": {
     "title": "Արտածում",
     "description": "Դասընթացը բացատրում է, թե ինչպես արտածել տերմինալում տեքստ։",
@@ -74,12 +73,6 @@ chapter-name
 		Հեղինակի անձանական կամ սոց․ էջի հասցեն։<br />
 		Տիպը՝&nbsp;<em>տող</em>։</li>
 	</ul>
-	</li>
-	<li>
-	<div><b>language</b><br />
-	Թեմայում առկա դաընթացների լեզուն՝&nbsp;<a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">ISO 639-1</a>&nbsp;ստանդարտով։<br />
-	Տիպը՝&nbsp;<em>տող</em>։<br />
-	<em>(պարտադիր է լրացման)</em></div>
 	</li>
 	<li><strong>chapter</strong><br />
 	Թեման։<br />
@@ -120,7 +113,7 @@ chapter-name
     },
     "code": {
       "source": "տպել «ողջո՛ւյն»",
-      "source": "տպել «ողջո՛ւյն»",
+      "continuus": false,
       "markers": {
         "color": "red",
         "range": [0, 6, 0, 13]
