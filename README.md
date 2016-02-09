@@ -36,7 +36,7 @@
 tutorials
 ├─ <chapter's-number>_<tutorial's-name>
 │  └─ <language-of-tutorial>
-│      └─ chapter.json
+│      ├─ chapter.json
 │      └─ tutorials
 │          ├─ <tutorial's-number>_<tutorial's-name>
 │          └─ ...
