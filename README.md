@@ -34,14 +34,29 @@
 ## կառուցվածքը՝
 ```
 chapter
-├─ language
-│  └─ tutorial-0.json
-│  └─ tutorial-1.json
-│  └─ tutorial-2.json
-│  └─ tutorial-N.json
-└─ chapter.json
+└─ <chapter's-number>_<tutorial's-name>
+│   └─ <language-of-tutorial>
+│      └─ chapter.json
+│      └─ tutorials
+│          ├─ <tutorial's-number>_<tutorial's-name>
+│          └─ ...
+└─ ...
 ```
-<div>Այստեղ <strong>language</strong>-ի ֆորմատը պետք է լինի <a href="http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">ISO 639-1</a> ստանդարտին համապատասխան։</div>
+<ul>
+	<li><strong>chapter&#39;s-number</strong><br />
+	թեմային համարը</li>
+	<li><strong>chapter&#39;s-name</strong><br />
+	թեմայի անվանումը</li>
+	<li><strong>language-of-tutorial</strong><br />
+	դասընթացի լեզուն՝&nbsp;<a href="http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">ISO 639-1</a> ստանդարտին համապատասխան։</li>
+	<li><strong>tutorial&#39;s-number</strong><br />
+	դասի համարը</li>
+	<li><strong>tutorial&#39;s-name</strong><br />
+	դասի անվանումը
+	<ul>
+	</ul>
+	</li>
+</ul>
 
 ## chapter.json՝
 ```json
@@ -49,14 +64,14 @@ chapter
   "author": {
     "name": "Arman Yeghiazaryan",
     "email": "arman@linguacode.me",
-    "url": "http://otanim.com",
+    "url": "http://otanim.com"
   },
   "chapter": {
     "title": "Արտածում",
-    "description": "Դասընթացը բացատրում է, թե ինչպես արտածել տերմինալում տեքստ։",
+    "description": "Դասընթացը բացատրում է, թե ինչպես արտածել տերմինալում տեքստ։"
   },
   "sources": "դասի պատրաստման համար օգտագործված աղբյուրն է introtopython.org/syllabus.html կայքը։",
-  "notes": "դասը ենթակա է ստուգման",
+  "notes": "դասը ենթակա է ստուգման"
 }
 ```
 
@@ -105,17 +120,17 @@ chapter
   "author": {
     "name": "Arman Yeghiazaryan",
     "email": "arman@linguacode.me",
-    "url": "http://otanim.com",
+    "url": "http://otanim.com"
   },
   "tutorial": {
     "article": {
       "title": "նախաբան",
       "lesson": "Տերմինալում տեքստի արտածման համար օգտագործվում է **տպել** հրամանը: Օրինակ՝  \n**մուտք**՝  \n`տպել «ողջույն»`  \n**ելք**՝  \n`«ողջույն»`",
-      "task": "1. Մեկնարկեք ծրագիրը, եւ տեսեք արդյունքը։  \n2. Փոփոխեք առկա արտածման տեքստը ձեր անունով, եւ մեկնարկեք ծրագիրը։",
+      "task": "1. Մեկնարկեք ծրագիրը, եւ տեսեք արդյունքը։  \n2. Փոփոխեք առկա արտածման տեքստը ձեր անունով, եւ մեկնարկեք ծրագիրը։"
     },
     "code": {
       "source": "տպել «ողջո՛ւյն»",
-      "continuus": false,
+      "continuous": false,
       "markers": {
         "color": "red",
         "range": [0, 6, 0, 13]
@@ -124,7 +139,7 @@ chapter
         [0, 0, 0, 5],
         [0, 14, 0, 999]
       ],
-      "cursor": [0, 6],
+      "cursor": [0, 6]
     },
     "validations": {
       "source": {
@@ -134,11 +149,11 @@ chapter
       "output": {
         "regExp": "/.*/ig",
         "message": "հայտնաբերված է սխալ"
-      },
+      }
     }
   },
   "sources": "դասի պատրաստման համար օգտագործված աղբյուրն է introtopython.org/syllabus.html կայքը։",
-  "notes": "դասը ենթակա է ստուգման",
+  "notes": "դասը ենթակա է ստուգման"
 }
 ```
 

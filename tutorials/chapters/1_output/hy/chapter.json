@@ -1,0 +1,13 @@
+{
+  "author": {
+    "name": "Arman Yeghiazaryan",
+    "email": "arman@linguacode.me",
+    "url": "http://otanim.com"
+  },
+  "chapter": {
+    "title": "Արտածում",
+    "description": "Դասընթացը բացատրում է, թե ինչպես արտածել տերմինալում տեքստ։"
+  },
+  "sources": "դասի պատրաստման համար օգտագործված աղբյուրն է introtopython.org/syllabus.html կայքը։",
+  "notes": "դասը ենթակա է ստուգման"
+}
