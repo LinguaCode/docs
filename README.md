@@ -34,24 +34,24 @@
 ## կառուցվածքը՝
 ```
 tutorials
-├─ <chapter's-number>_<tutorial's-name>
-│  └─ <language-of-tutorial>
+├─ <chNumber>_<chName>
+│  └─ <lng>
 │      ├─ chapter.json
 │      └─ tutorials
-│          ├─ <tutorial's-number>_<tutorial's-name>
+│          ├─ <tNumber>_<tName>
 │          └─ ...
 └─ ...
 ```
 <ul>
-	<li><strong>chapter&#39;s-number</strong><br />
+	<li><strong>chNumber</strong><br />
 	թեմային համարը</li>
-	<li><strong>chapter&#39;s-name</strong><br />
+	<li><strong>chName</strong><br />
 	թեմայի անվանումը</li>
-	<li><strong>language-of-tutorial</strong><br />
+	<li><strong>lng</strong><br />
 	դասընթացի լեզուն՝&nbsp;<a href="http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">ISO 639-1</a> ստանդարտին համապատասխան։</li>
-	<li><strong>tutorial&#39;s-number</strong><br />
+	<li><strong>tNumber</strong><br />
 	դասի համարը</li>
-	<li><strong>tutorial&#39;s-name</strong><br />
+	<li><strong>tName</strong><br />
 	դասի անվանումը
 	<ul>
 	</ul>
@@ -125,8 +125,10 @@ tutorials
   "tutorial": {
     "article": {
       "title": "նախաբան",
-      "lesson": "Տերմինալում տեքստի արտածման համար օգտագործվում է **տպել** հրամանը: Օրինակ՝  \n**մուտք**՝  \n`տպել «ողջույն»`  \n**ելք**՝  \n`«ողջույն»`",
-      "task": "1. Մեկնարկեք ծրագիրը, եւ տեսեք արդյունքը։  \n2. Փոփոխեք առկա արտածման տեքստը ձեր անունով, եւ մեկնարկեք ծրագիրը։"
+	  "content": {
+	      "lesson": "Տերմինալում տեքստի արտածման համար օգտագործվում է \"*տպել*\" հրամանը:  \n\n#### Օրինակ՝  \n**մուտք**```linguacode\nտպել «ողջույն»\n```**ելք՝**```terminal\nողջույն\n```",
+	      "task": "**1.** Մեկնարկեք ծրագիրը, եւ տեսեք արդյունքը։  \n**2.** Փոփոխեք առկա արտածման տեքստը ձեր անունով, եւ մեկնարկեք ծրագիրը։"
+    	}
     },
     "code": {
       "source": "տպել «ողջո՛ւյն»",
@@ -187,14 +189,23 @@ tutorials
 			Դասի վերնագիրը։<br />
 			Տիպը՝&nbsp; <em> տող </em> ։<br />
 			<em>(պարտադիր է լրացման) </em></li>
-			<li><strong>lesson </strong><br />
-			Դասի նկարագրությունը։ <strong> <a href="http://guides.github.com/features/mastering-markdown" target="_blank"> markdown </a> </strong> -ի կիրառումը թույլատրված է։<br />
-			Տիպը՝&nbsp; <em> տող </em> ։<br />
-			<em>(պարտադիր է լրացման) </em></li>
-			<li><strong>task </strong><br />
-			Դասի առաջադրանքը։ <strong> <a href="http://guides.github.com/features/mastering-markdown" target="_blank"> markdown </a> </strong> -ի կիրառումը թույլատրված է։<br />
-			Տիպը՝&nbsp; <em> տող </em> ։<br />
-			<em>(պարտադիր է լրացման) </em></li>
+			<li>
+			<div><strong>content&nbsp;</strong><br />
+			Դասի պարունակությունը։<br />
+			Տիպը՝&nbsp;&nbsp;<em>օբյեկտ&nbsp;</em>։<br />
+			<em>(պարտադիր է լրացման)</em></div>
+
+			<ul>
+				<li><strong>lesson </strong><br />
+				Դասի նկարագրությունը։ <strong> <a href="http://guides.github.com/features/mastering-markdown" target="_blank"> markdown </a> </strong> -ի կիրառումը թույլատրված է։<br />
+				Տիպը՝&nbsp; <em> տող </em> ։<br />
+				<em>(պարտադիր է լրացման) </em></li>
+				<li><strong>task </strong><br />
+				Դասի առաջադրանքը։ <strong> <a href="http://guides.github.com/features/mastering-markdown" target="_blank"> markdown </a> </strong> -ի կիրառումը թույլատրված է։<br />
+				Տիպը՝&nbsp; <em> տող </em> ։<br />
+				<em>(պարտադիր է լրացման) </em></li>
+			</ul>
+			</li>
 		</ul>
 		</li>
 		<li><strong>code </strong><br />
